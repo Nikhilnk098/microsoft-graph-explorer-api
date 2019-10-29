@@ -17,7 +17,7 @@ This shows how snippets requests look like for javascript
 ```http
 GET /v1.0/me/events/AAMkAGIAAAoZDOFAAA=?$select=subject,body,bodyPreview,organizer,attendees,start,end,location HTTP/1.1
 Host: graph.microsoft.com
-Prefer: outlook.timezone="Pacific Standard Time"
+Prefer: outlook.timezone="Pacific oriented Time"
 
 ```
 
